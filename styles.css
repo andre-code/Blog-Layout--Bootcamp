@@ -1,8 +1,17 @@
 * {
   box-sizing:border-box;
 }
+:root {
+  --main-text-color: #646f7b; 
+  --main-text-light-color: #e6e6e6; 
+  --main-bg-color: #f2f2f2;
+  --main-bg-box-color: #fff;
+  --main-bg-dark-color: #45525f;
+  --main-border-color: #646f7b; 
+  --main-border-light-color: #a5b4c1;  
+}
 body {
-  background-color: #fff;
+  background-color: var(--main-bg-box-color);
   margin: 0px;
   font-family: 'Roboto', sans-serif;
 }
@@ -19,7 +28,7 @@ nav ul {
 }
 nav ul li {
   list-style-type: none;
-  color: #646f7b;
+  color: var(--main-text-color);
   float: left;
   padding-left: 40px;
 }
@@ -27,7 +36,7 @@ nav ul li:nth-child(6) {
   margin-top: -10px;
 } 
 nav ul li  a {
-  color: #646f7b;
+  color: var(--main-text-color);
   text-decoration: none;
   font-size: 17px;
 }
@@ -35,7 +44,7 @@ nav ul li  a {
 /* My favorites section */
 #my-favorites {
   width: 100%;
-  background-color: #f2f2f2;
+  background-color: var(--main-bg-color);
   height: 340px;
 }
 #my-favorites section {
@@ -55,8 +64,9 @@ nav ul li  a {
   height: 230px;
 }
 #my-favorites figure figcaption {
-  background-color: #fff;
-  border: 1px solid #87919c;
+  background-color: var(--main-bg-box-color);
+  border: 1px solid;
+  border-color: var(--main-border-color);
   width: 150px;
   margin: auto;
   padding: 20px;
@@ -66,12 +76,13 @@ nav ul li  a {
   text-align: center;
   position: relative;
   top: -45px;
-  color: #646f7b;
+  color: var(--main-text-color);
 }
 .line { 
   width: 80px;
   margin: 0 auto;
-  border: 1px solid #636b73;
+  border: 1px solid;
+  border-color: var(--main-border-color);
   position: relative;
   top: 5px;
 }
@@ -83,7 +94,7 @@ nav ul li  a {
 /* Article section */
 article {
   width: 60%;
-  background-color: #f2f2f2;
+  background-color: var(--main-bg-color);
   padding: 30px;
   padding-left: 100px;
   padding-right: 100px;
@@ -91,7 +102,7 @@ article {
   float: left;
 }
 article h1 {
-  color: #636b73;
+  color: var(--main-text-color);
   text-align: center;
   font-size: 18px;
   font-weight: 400;
@@ -102,7 +113,7 @@ article figure img {
 }
 article p {
   font-size: 15px;
-  color: #636b73;
+  color: var(--main-text-color);
   padding-top: 10px;
 }
 
@@ -113,7 +124,7 @@ article p {
   margin-top: 20px;
   float: left;
   text-align: center;
-  color: #636b73;
+  color: var(--main-text-color);
 }
 #author-section h3 {
   font-size: 16px;
@@ -127,7 +138,8 @@ article p {
 .line-h3 { 
   width: 130px;
   margin: 0 auto;
-  border: 1px solid #a5b4c1;
+  border: 1px solid;
+  border-color: var(--main-border-light-color);
   position: relative;
   top: 5px;
   display: block;
@@ -147,7 +159,7 @@ article p {
   padding-top: 0px;
   float: left;
   text-align: center;
-  color: #636b73;
+  color: var(--main-text-color);
 }
 #contact-section h3 {
   font-size: 16px;
@@ -159,12 +171,13 @@ form {
   padding-top: 10px;
 }
 input::placeholder, textarea::placeholder {
-  color: #a0b0c1;
+  color: var(--main-text-light-color);
   font-size: 16px;
 }
 input, textarea {
   width: 100%;
-  border: 2px solid #a0b0c1;
+  border: 2px solid;
+  border-color: var(--main-border-light-color);
   border-radius: 5px;
   padding-left: 10px;
 }
@@ -179,8 +192,8 @@ input {
 button {
   width: 100%;
   height: 60px;
-  background-color: #45525f;
-  color: #e6e6e6;
+  background-color: var(--main-bg-dark-color);
+  color: var(--main-text-light-color);
   border-radius: 5px;
   font-size: 16px;
 }
@@ -188,13 +201,13 @@ button {
 /* footer section */
 footer {
   width: 100%;
-  background-color: #45525f;
+  background-color: var(--main-bg-dark-color);
+  color: var(--main-text-light-color);
   height: 200px;
   text-align: center;
   display: block;
   float: left;
   padding-top: 100px;
-  color: #c7c7c7;
   font-size: 16px;
   margin-top: 10px;
 }
