@@ -13,19 +13,19 @@
   <nav>
     <ul>
       <li>
-        <a href="#">Home</a>
+        <a href="#" role="menuitem">Home</a>
       </li>
       <li>
-        <a href="#">About</a>
+        <a href="#" role="menuitem">About</a>
       </li>
       <li>
-        <a href="#">Features</a>
+        <a href="#" role="menuitem">Features</a>
       </li>
       <li>
-        <a href="#">Princing</a>
+        <a href="#" role="menuitem">Princing</a>
       </li>
       <li>
-        <a href="#">Contact Us</a>
+        <a href="#" role="menuitem">Contact Us</a>
       </li>
       <li>
           <img src="images/search-icon.svg" alt="Icon search" title="Search Image">
@@ -64,7 +64,7 @@
 
   <section id="main-content">
      <!-- MAIN CONTENT -->
-    <article>
+    <article role="main">
       <h1>MY TRIP TO AMSTERDAM</h1>
       <figure>
         <img src="images/blog-image.jpg" alt="Image of a house on Amsterdam" title="House Image">
@@ -106,8 +106,8 @@
           <label for="email">
               <input type="email" name="email" id="email" placeholder="Type your email" aria-required="true">
           </label>
-          <textarea name="message" placeholder="Text..."></textarea>
-          <button type="submit" name="submit" value="submit">Submit</button>
+          <textarea name="message" placeholder="Text..." aria-required="true"></textarea>
+          <button type="submit" name="submit" value="submit" role="button">Submit</button>
         </form>
       </section>
   </section>
