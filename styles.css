@@ -92,7 +92,7 @@ nav ul li  a {
 }
 
 /* Article section */
-article {
+#article {
   width: 60%;
   background-color: var(--main-bg-color);
   padding: 30px;
@@ -101,17 +101,17 @@ article {
   margin-top: 50px;
   float: left;
 }
-article h1 {
+#article h1 {
   color: var(--main-text-color);
   text-align: center;
   font-size: 18px;
   font-weight: 400;
 }
-article figure img {
+#article figure img {
   width: 100%;
   margin-bottom: 20px;
 }
-article p {
+#article p {
   font-size: 15px;
   color: var(--main-text-color);
   padding-top: 10px;
