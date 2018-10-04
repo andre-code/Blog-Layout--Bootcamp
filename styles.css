@@ -16,7 +16,9 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* NAV section */
+/* 
+ * nav section 
+ */
 nav {
   padding-top: 25px;
   height: 100px;
@@ -65,7 +67,6 @@ input[type='checkbox']:checked ~ .container > .menu:after {
   right: 10px;
   cursor: pointer;
 }
-
 .menu {
   height: 2px;
   width: 30px;
@@ -92,7 +93,6 @@ input[type='checkbox']:checked ~ .container > .menu:after {
   content: '';
   top: 10px;
 }
-
 @media (max-width: 766px){
   .menu-ul {
     display: none;
@@ -136,7 +136,10 @@ input[type='checkbox']:checked ~ .container > .menu:after {
     display: block;
   }
 }
-/* My favorites section */
+
+/* 
+ * My favorites section
+ */
 #my-favorites {
   width: 100%;
   background-color: var(--main-bg-color);
@@ -215,7 +218,10 @@ input[type='checkbox']:checked ~ .container > .menu:after {
     max-height: 160px;
   }
 }
-/* Article section */
+
+/* 
+ * Article section 
+ */
 #article {
   width: 60%;
   background-color: var(--main-bg-color);
@@ -256,7 +262,9 @@ input[type='checkbox']:checked ~ .container > .menu:after {
   }
 }
 
-/* Author section */
+/* 
+ * Author section 
+ */
 #author-section {
   width: 40%;
   padding: 30px;
@@ -296,7 +304,9 @@ input[type='checkbox']:checked ~ .container > .menu:after {
   }
 }
 
-/* Contact section */
+/* 
+ * Contact section 
+ */
 #contact-section {
   width: 40%;
   padding: 30px;
@@ -347,7 +357,9 @@ button {
   }
 }
 
-/* footer section */
+/* 
+ * footer section 
+ */
 footer {
   width: 100%;
   background-color: var(--main-bg-dark-color);
