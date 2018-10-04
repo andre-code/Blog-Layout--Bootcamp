@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Blog Layout</title>
   <link href="styles.css" rel="stylesheet" type="text/css">
@@ -12,26 +13,32 @@
   <header>
     <!-- NAV SECTION -->
     <nav role="menubar">
-      <ul>
-        <li>
-          <a href="#" role="menuitem">Home</a>
-        </li>
-        <li>
-          <a href="#" role="menuitem">About</a>
-        </li>
-        <li>
-          <a href="#" role="menuitem">Features</a>
-        </li>
-        <li>
-          <a href="#" role="menuitem">Princing</a>
-        </li>
-        <li>
-          <a href="#" role="menuitem">Contact Us</a>
-        </li>
-        <li>
-            <img src="images/search-icon.svg" alt="Icon search" title="Search Image">
-        </li>
-      </ul>
+      <label for="icon-menu-hamburger">
+        <input type="checkbox" id="icon-menu-hamburger"/>
+        <div class="container icon-menu-hamburger">
+          <div class="menu"></div>
+        </div>
+        <ul class="menu-ul">
+            <li>
+              <a href="#" role="menuitem">Home</a>
+            </li>
+            <li>
+              <a href="#" role="menuitem">About</a>
+            </li>
+            <li>
+              <a href="#" role="menuitem">Features</a>
+            </li>
+            <li>
+              <a href="#" role="menuitem">Princing</a>
+            </li>
+            <li>
+              <a href="#" role="menuitem">Contact Us</a>
+            </li>
+            <li>
+                <img src="images/search-icon.svg" alt="Icon search" title="Search Image">
+            </li>
+          </ul>
+      </label>    
     </nav>
   </header>
 
