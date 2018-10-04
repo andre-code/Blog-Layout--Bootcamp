@@ -123,6 +123,13 @@ input[type='checkbox']:checked ~ .container > .menu:after {
     text-align: center;
     padding-left: 0px;
   }
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+  }
 }
 @media (min-width: 767px){
   ul {
@@ -201,6 +208,9 @@ input[type='checkbox']:checked ~ .container > .menu:after {
   }
 }
 @media (max-width: 766px) { 
+  #my-favorites {
+    margin-top: 80px;
+  }
   #my-favorites figure img {
     max-height: 160px;
   }
